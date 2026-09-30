@@ -1,0 +1,3 @@
+sku_id,product_name,category,lead_time_days,current_stock,d_avg_7d,dynamic_rop,days_supply_left,recommended_order_units,unit_cost_usd,total_order_cost_usd,total_order_cost_khr
+SKU-FOD-003,Malys Angkor Jasmine Rice 5kg,Packaged Foods,4,45,12.33,65.5,3.6,100,4.2,420.0,1717600.0
+SKU-FOD-005,Kampot Black Pepper Sealed 100g,Packaged Foods,5,60,12.76,82.4,4.7,122,1.8,219.6,898100.0

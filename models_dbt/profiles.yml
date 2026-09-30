@@ -1,0 +1,7 @@
+cambodia_mse:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('DBT_DUCKDB_PATH', 'data/cambodia_mse.duckdb') }}"
+      threads: 4

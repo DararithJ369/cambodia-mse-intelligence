@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: ods_pos
+    description: "Operational Data Store (ODS) containing raw retail POS transactions, inventory, customers, and open data feeds"
+    database: cambodia_mse
+    schema: main
+    tables:
+      - name: raw_transactions
+        identifier: raw_pos_transactions
+        description: "Raw point-of-sale line item logs"
+      - name: raw_inventory
+        description: "Raw product catalog and inventory stock"
+      - name: raw_customers
+        description: "Raw customer profiles"
+      - name: raw_fx_rates
+        description: "National Bank of Cambodia foreign exchange reference rates"
+      - name: raw_odc_fuel
+        description: "Open Development Cambodia / MoC retail fuel prices"
+      - name: raw_provinces
+        description: "Geospatial and provincial population data"

@@ -1,0 +1,35 @@
+sku,product_name,category,cost_price_usd,selling_price_usd,current_stock_level,reorder_point,lead_time_days,supplier_name,gross_margin_pct
+SKU-BEV-001,Angkor Premium Beer 330ml Can,Beverages,0.65,0.9,150,40,2,Cambrew Ltd,27.77777777777778
+SKU-BEV-002,Cambodia Beer 330ml Can,Beverages,0.62,0.85,140,35,2,Khmer Beverages,27.058823529411764
+SKU-BEV-003,Hanuman Premium Lager 330ml,Beverages,0.7,1.0,100,30,3,Hanuman Beverages,30.000000000000004
+SKU-BEV-004,Sting Energy Drink 250ml Can,Beverages,0.4,0.65,200,50,2,PepsiCo Cambodia,38.46153846153846
+SKU-BEV-005,Carabao Energy Drink 250ml,Beverages,0.38,0.6,180,45,2,Carabao Tawandang,36.666666666666664
+SKU-BEV-006,Vital Premium Water 500ml,Beverages,0.18,0.35,300,80,1,N.V.C Corporation,48.57142857142857
+SKU-BEV-007,Yeo's Soy Bean Milk 300ml Can,Beverages,0.42,0.7,120,30,2,Yeo Hiap Seng,40.0
+SKU-BEV-008,Canned Iced Coffee Milk 240ml,Beverages,0.48,0.8,160,40,2,Local Dairy Wholesale,40.00000000000001
+SKU-BEV-009,Oishi Green Tea Honey Lemon 500ml,Beverages,0.55,0.9,110,30,3,Oishi Group,38.888888888888886
+SKU-BEV-010,Coca-Cola Original 330ml Can,Beverages,0.45,0.75,220,60,2,Cambodia Beverage Co,40.0
+SKU-FOD-001,Mama Instant Noodles Pork 55g (Pack of 5),Packaged Foods,1.1,1.6,130,35,3,Thai President Foods,31.25
+SKU-FOD-002,Wai Wai Noodles Tom Yum 60g,Packaged Foods,0.25,0.4,250,60,2,Thai Preserved Food,37.50000000000001
+SKU-FOD-003,Malys Angkor Jasmine Rice 5kg,Packaged Foods,4.2,5.75,45,15,4,Battambang Rice Mill,26.95652173913043
+SKU-FOD-004,Phsar Thom Quality Fish Sauce 500ml,Packaged Foods,0.85,1.3,80,25,3,Kampot Fish Sauce Co,34.61538461538462
+SKU-FOD-005,Kampot Black Pepper Sealed 100g,Packaged Foods,1.8,2.75,60,15,5,Kampot Pepper Assn,34.54545454545455
+SKU-FOD-006,Traditional Palm Sugar Block 500g,Packaged Foods,1.1,1.7,70,20,4,Kampong Speu Agri Coop,35.29411764705881
+SKU-FOD-007,Teuk Doh Koh Sweet Condensed Milk 380g,Packaged Foods,0.75,1.15,140,40,2,Indochina Dairy,34.782608695652165
+SKU-FOD-008,Aroy-D Coconut Milk 400ml Can,Packaged Foods,0.95,1.45,90,25,3,Thai Agri Foods,34.48275862068966
+SKU-FOD-009,Knorr Chicken Broth Powder 400g,Packaged Foods,1.5,2.2,75,20,3,Unilever Cambodia,31.818181818181824
+SKU-FOD-010,Roza Canned Sardines in Tomato Sauce,Packaged Foods,0.6,0.95,160,40,2,Hi-Q Food Products,36.84210526315789
+SKU-SNK-001,Lay's Classic Potato Chips 50g,Snacks,0.7,1.1,110,30,3,PepsiCo Foods,36.36363636363637
+SKU-SNK-002,Pocky Chocolate Biscuit Sticks 47g,Snacks,0.65,1.0,130,35,3,Glico Thailand,35.0
+SKU-SNK-003,Cambodian Dried Mango Slices 150g,Snacks,1.4,2.25,80,20,4,Kirirom Food Prod,37.777777777777786
+SKU-SNK-004,Roasted Garlic Chili Peanuts 120g,Snacks,0.5,0.85,150,40,2,Local Food Artisans,41.17647058823529
+SKU-SNK-005,Hanami Prawn Crackers 60g,Snacks,0.55,0.9,120,30,3,Hanami Co,38.888888888888886
+SKU-HOU-001,Sunsilk Co-Creations Shampoo 320ml,Personal Care,2.2,3.2,50,15,3,Unilever Cambodia,31.25
+SKU-HOU-002,Colgate Total Toothpaste 150g,Personal Care,1.25,1.85,75,20,3,Colgate-Palmolive,32.432432432432435
+SKU-HOU-003,Sunlight Lime Dishwashing Liquid 750ml,Household,1.1,1.65,90,25,2,Unilever Cambodia,33.33333333333333
+SKU-HOU-004,Dettol Anti-Bacterial Bar Soap 100g,Personal Care,0.6,0.95,140,35,2,Reckitt Benckiser,36.84210526315789
+SKU-HOU-005,Premier 3-Ply Facial Tissue (Pack of 4),Household,1.5,2.2,65,20,3,NTPM Paper,31.818181818181824
+SKU-HOU-006,Attack Easy Detergent Powder 800g,Household,1.45,2.1,70,20,3,Kao Commercial,30.95238095238096
+SKU-DAI-001,Dutch Mill UHT Fresh Milk 180ml (x4),Dairy & Cold,1.4,2.0,85,25,2,Dutch Mill Co,30.000000000000004
+SKU-DAI-002,Yakult Probiotic Fermented Milk (Pack of 5),Dairy & Cold,1.55,2.25,60,20,2,Yakult Cambodia,31.11111111111111
+SKU-DAI-003,Fresh Local Eggs (Tray of 10),Dairy & Cold,1.15,1.65,100,30,1,Takeo Poultry Farm,30.303030303030305

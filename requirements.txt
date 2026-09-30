@@ -1,0 +1,34 @@
+# Cambodia MSE Intelligence - Project Dependencies
+
+# Analytical Engine & In-Process OLAP Database
+duckdb>=1.1.0,<=1.5.6
+
+# Transformation & Governance (dbt)
+dbt-core>=1.9.0
+dbt-duckdb>=1.9.0
+
+# Data Manipulation & Formats
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+openpyxl>=3.1.0
+
+# Synthetic Data Generation
+Faker>=24.0.0
+
+# Machine Learning & Statistical Modeling
+scikit-learn>=1.4.0
+lightgbm>=4.3.0
+
+# Visualization & Reporting
+matplotlib>=3.8.0
+seaborn>=0.13.0
+nbformat>=5.9.0
+
+# Business Intelligence & Application
+streamlit>=1.35.0
+plotly>=5.20.0
+requests>=2.31.0
+
+# Testing & Quality Assurance
+pytest>=8.0.0

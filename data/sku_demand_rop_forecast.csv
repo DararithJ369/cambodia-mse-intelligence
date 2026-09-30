@@ -1,0 +1,35 @@
+sku_id,product_name,category,lead_time_days,current_stock,d_avg_7d,safety_stock,dynamic_rop,stockout_risk
+SKU-BEV-001,Angkor Premium Beer 330ml Can,Beverages,2,150,13.08,12.8,39.0,False
+SKU-BEV-002,Cambodia Beer 330ml Can,Beverages,2,140,12.32,11.4,36.0,False
+SKU-BEV-003,Hanuman Premium Lager 330ml,Beverages,3,100,13.27,13.8,53.6,False
+SKU-BEV-004,Sting Energy Drink 250ml Can,Beverages,2,200,12.46,12.2,37.1,False
+SKU-BEV-005,Carabao Energy Drink 250ml,Beverages,2,180,13.28,12.2,38.8,False
+SKU-BEV-006,Vital Premium Water 500ml,Beverages,1,300,12.72,9.3,22.0,False
+SKU-BEV-007,Yeo's Soy Bean Milk 300ml Can,Beverages,2,120,12.65,13.1,38.4,False
+SKU-BEV-008,Canned Iced Coffee Milk 240ml,Beverages,2,160,12.37,12.2,36.9,False
+SKU-BEV-009,Oishi Green Tea Honey Lemon 500ml,Beverages,3,110,13.1,15.1,54.4,False
+SKU-BEV-010,Coca-Cola Original 330ml Can,Beverages,2,220,13.06,12.3,38.4,False
+SKU-DAI-001,Dutch Mill UHT Fresh Milk 180ml (x4),Dairy & Cold,2,85,12.53,12.1,37.2,False
+SKU-DAI-002,Yakult Probiotic Fermented Milk (Pack of 5),Dairy & Cold,2,60,12.6,12.2,37.4,False
+SKU-DAI-003,Fresh Local Eggs (Tray of 10),Dairy & Cold,1,100,12.94,10.6,23.5,False
+SKU-FOD-001,Mama Instant Noodles Pork 55g (Pack of 5),Packaged Foods,3,130,13.34,16.5,56.5,False
+SKU-FOD-002,Wai Wai Noodles Tom Yum 60g,Packaged Foods,2,250,12.06,10.3,34.4,False
+SKU-FOD-003,Malys Angkor Jasmine Rice 5kg,Packaged Foods,4,45,12.33,16.2,65.5,True
+SKU-FOD-004,Phsar Thom Quality Fish Sauce 500ml,Packaged Foods,3,80,13.1,15.3,54.6,False
+SKU-FOD-005,Kampot Black Pepper Sealed 100g,Packaged Foods,5,60,12.76,18.6,82.4,True
+SKU-FOD-006,Traditional Palm Sugar Block 500g,Packaged Foods,4,70,12.4,17.9,67.5,False
+SKU-FOD-007,Teuk Doh Koh Sweet Condensed Milk 380g,Packaged Foods,2,140,11.14,10.9,33.2,False
+SKU-FOD-008,Aroy-D Coconut Milk 400ml Can,Packaged Foods,3,90,12.76,16.6,54.9,False
+SKU-FOD-009,Knorr Chicken Broth Powder 400g,Packaged Foods,3,75,12.7,17.6,55.7,False
+SKU-FOD-010,Roza Canned Sardines in Tomato Sauce,Packaged Foods,2,160,12.62,12.0,37.2,False
+SKU-HOU-001,Sunsilk Co-Creations Shampoo 320ml,Personal Care,3,50,12.05,13.7,49.9,False
+SKU-HOU-002,Colgate Total Toothpaste 150g,Personal Care,3,75,12.93,15.7,54.5,False
+SKU-HOU-003,Sunlight Lime Dishwashing Liquid 750ml,Household,2,90,12.82,10.9,36.5,False
+SKU-HOU-004,Dettol Anti-Bacterial Bar Soap 100g,Personal Care,2,140,12.9,11.6,37.4,False
+SKU-HOU-005,Premier 3-Ply Facial Tissue (Pack of 4),Household,3,65,12.78,15.0,53.3,False
+SKU-HOU-006,Attack Easy Detergent Powder 800g,Household,3,70,13.06,14.8,54.0,False
+SKU-SNK-001,Lay's Classic Potato Chips 50g,Snacks,3,110,12.51,16.9,54.4,False
+SKU-SNK-002,Pocky Chocolate Biscuit Sticks 47g,Snacks,3,130,12.83,14.1,52.6,False
+SKU-SNK-003,Cambodian Dried Mango Slices 150g,Snacks,4,80,12.08,22.7,71.0,False
+SKU-SNK-004,Roasted Garlic Chili Peanuts 120g,Snacks,2,150,12.83,10.7,36.4,False
+SKU-SNK-005,Hanami Prawn Crackers 60g,Snacks,3,120,12.51,16.1,53.6,False

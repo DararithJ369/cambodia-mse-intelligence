@@ -1,0 +1,54 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+
+# dbt Artifacts & Logs
+models_dbt/target/
+models_dbt/dbt_packages/
+models_dbt/logs/
+models_dbt/.user.yml
+.user.yml
+target/
+dbt_packages/
+logs/
+
+# IDE & Editor Folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment Variables & Secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Large Raw Binaries (preserve processed CSVs and DuckDB databases)
+data/*.osm.pbf
+
+# Database WAL, lock, and temporary files
+*.duckdb.wal
+*.duckdb.tmp
+*.db-wal
+*.db-shm
+*.db-journal
+
+# Ephemeral logs
+*.log
+
+# Documentation build artifacts
+docs/_build/

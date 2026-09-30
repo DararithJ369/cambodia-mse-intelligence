@@ -1,0 +1,35 @@
+sku_id,product_name_khmer,category_id,unit_cost_usd,unit_cost_khr,current_stock_on_hand,allocated_stock,reorder_point_units,safety_stock_level,lead_time_days,lead_time_variance_days,holding_cost_per_unit_annual,stockout_event_count_30d,shelf_life_days
+SKU-BEV-001,Angkor Premium Beer 330ml Can,1,0.65,2700.0,150,15,40,20,2,0.5,1.2,0,180
+SKU-BEV-002,Cambodia Beer 330ml Can,1,0.62,2500.0,140,14,35,18,2,0.5,1.2,0,180
+SKU-BEV-003,Hanuman Premium Lager 330ml,1,0.7,2900.0,100,10,30,15,3,0.5,1.2,0,180
+SKU-BEV-004,Sting Energy Drink 250ml Can,1,0.4,1600.0,200,20,50,25,2,0.5,1.2,0,180
+SKU-BEV-005,Carabao Energy Drink 250ml,1,0.38,1600.0,180,18,45,22,2,0.5,1.2,0,180
+SKU-BEV-006,Vital Premium Water 500ml,1,0.18,700.0,300,30,80,40,1,0.5,1.2,0,180
+SKU-BEV-007,Yeo's Soy Bean Milk 300ml Can,1,0.42,1700.0,120,12,30,15,2,0.5,1.2,0,180
+SKU-BEV-008,Canned Iced Coffee Milk 240ml,1,0.48,2000.0,160,16,40,20,2,0.5,1.2,0,180
+SKU-BEV-009,Oishi Green Tea Honey Lemon 500ml,1,0.55,2200.0,110,11,30,15,3,0.5,1.2,0,180
+SKU-BEV-010,Coca-Cola Original 330ml Can,1,0.45,1800.0,220,22,60,30,2,0.5,1.2,0,180
+SKU-FOD-001,Mama Instant Noodles Pork 55g (Pack of 5),2,1.1,4500.0,130,13,35,18,3,0.5,1.2,0,180
+SKU-FOD-002,Wai Wai Noodles Tom Yum 60g,2,0.25,1000.0,250,25,60,30,2,0.5,1.2,0,180
+SKU-FOD-003,Malys Angkor Jasmine Rice 5kg,2,4.2,17200.0,45,4,15,8,4,0.5,1.2,0,180
+SKU-FOD-004,Phsar Thom Quality Fish Sauce 500ml,2,0.85,3500.0,80,8,25,12,3,0.5,1.2,0,180
+SKU-FOD-005,Kampot Black Pepper Sealed 100g,2,1.8,7400.0,60,6,15,8,5,0.5,1.2,0,180
+SKU-FOD-006,Traditional Palm Sugar Block 500g,2,1.1,4500.0,70,7,20,10,4,0.5,1.2,0,180
+SKU-FOD-007,Teuk Doh Koh Sweet Condensed Milk 380g,2,0.75,3100.0,140,14,40,20,2,0.5,1.2,0,180
+SKU-FOD-008,Aroy-D Coconut Milk 400ml Can,2,0.95,3900.0,90,9,25,12,3,0.5,1.2,0,180
+SKU-FOD-009,Knorr Chicken Broth Powder 400g,2,1.5,6100.0,75,8,20,10,3,0.5,1.2,0,180
+SKU-FOD-010,Roza Canned Sardines in Tomato Sauce,2,0.6,2500.0,160,16,40,20,2,0.5,1.2,0,180
+SKU-SNK-001,Lay's Classic Potato Chips 50g,3,0.7,2900.0,110,11,30,15,3,0.5,1.2,0,180
+SKU-SNK-002,Pocky Chocolate Biscuit Sticks 47g,3,0.65,2700.0,130,13,35,18,3,0.5,1.2,0,180
+SKU-SNK-003,Cambodian Dried Mango Slices 150g,3,1.4,5700.0,80,8,20,10,4,0.5,1.2,0,180
+SKU-SNK-004,Roasted Garlic Chili Peanuts 120g,3,0.5,2000.0,150,15,40,20,2,0.5,1.2,0,180
+SKU-SNK-005,Hanami Prawn Crackers 60g,3,0.55,2200.0,120,12,30,15,3,0.5,1.2,0,180
+SKU-HOU-001,Sunsilk Co-Creations Shampoo 320ml,4,2.2,9000.0,50,5,15,8,3,0.5,1.2,0,730
+SKU-HOU-002,Colgate Total Toothpaste 150g,4,1.25,5100.0,75,8,20,10,3,0.5,1.2,0,730
+SKU-HOU-003,Sunlight Lime Dishwashing Liquid 750ml,5,1.1,4500.0,90,9,25,12,2,0.5,1.2,0,730
+SKU-HOU-004,Dettol Anti-Bacterial Bar Soap 100g,4,0.6,2500.0,140,14,35,18,2,0.5,1.2,0,730
+SKU-HOU-005,Premier 3-Ply Facial Tissue (Pack of 4),5,1.5,6100.0,65,6,20,10,3,0.5,1.2,0,730
+SKU-HOU-006,Attack Easy Detergent Powder 800g,5,1.45,5900.0,70,7,20,10,3,0.5,1.2,0,730
+SKU-DAI-001,Dutch Mill UHT Fresh Milk 180ml (x4),6,1.4,5700.0,85,8,25,12,2,0.5,1.2,0,14
+SKU-DAI-002,Yakult Probiotic Fermented Milk (Pack of 5),6,1.55,6300.0,60,6,20,10,2,0.5,1.2,0,14
+SKU-DAI-003,Fresh Local Eggs (Tray of 10),6,1.15,4700.0,100,10,30,15,1,0.5,1.2,0,14

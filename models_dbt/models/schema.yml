@@ -1,0 +1,151 @@
+version: 2
+
+models:
+  - name: fct_sales_transactions
+    description: "Star Schema Fact table recording retail POS line-item sales metrics with dual-currency USD/KHR ledger"
+    columns:
+      - name: transaction_line_id
+        description: "Primary surrogate key generated from transaction_id and line_item_id"
+        tests:
+          - unique
+          - not_null
+
+      - name: transaction_id
+        description: "Degenerate checkout receipt ID"
+        tests:
+          - not_null
+
+      - name: sku_id
+        description: "Foreign key referencing dim_products"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_products')
+              field: sku_id
+
+      - name: customer_id
+        description: "Foreign key referencing dim_customers"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_customers')
+              field: customer_id
+
+      - name: date_key
+        description: "Foreign key referencing dim_dates_macro"
+        tests:
+          - not_null
+          - relationships:
+              to: ref('dim_dates_macro')
+              field: date_key
+
+      - name: quantity_sold
+        description: "Quantity of product units purchased in checkout line"
+        tests:
+          - not_null
+
+      - name: payment_currency
+        description: "Currency applied at the POS register"
+        tests:
+          - not_null
+          - accepted_values:
+              values: ['USD', 'KHR']
+
+      - name: gross_revenue_usd
+        description: "Gross revenue normalized to USD"
+        tests:
+          - not_null
+
+      - name: cogs_usd
+        description: "Cost of Goods Sold (COGS) in USD based on inventory unit cost"
+        tests:
+          - not_null
+
+      - name: net_profit_margin_usd
+        description: "Net profit margin in USD (gross_revenue_usd - cogs_usd)"
+        tests:
+          - not_null
+
+  - name: dim_products
+    description: "Dimension table managing product SKU catalog, inventory stock levels, and supplier lead times"
+    columns:
+      - name: sku_id
+        description: "Primary key for product SKU"
+        tests:
+          - unique
+          - not_null
+
+      - name: product_name_khmer
+        description: "Product brand and item description"
+        tests:
+          - not_null
+
+      - name: category_id
+        description: "Product merchandise category"
+        tests:
+          - not_null
+
+      - name: unit_cost_usd
+        description: "Wholesale acquisition cost per unit in USD"
+        tests:
+          - not_null
+
+      - name: current_stock_on_hand
+        description: "Current on-hand inventory unit count in store"
+        tests:
+          - not_null
+
+      - name: reorder_point_units
+        description: "Threshold unit level that triggers automated replenishment"
+        tests:
+          - not_null
+
+  - name: dim_customers
+    description: "Dimension table maintaining customer profiles, loyalty tiers, and RFM behavioral clusters"
+    columns:
+      - name: customer_id
+        description: "Primary key for customer entity"
+        tests:
+          - unique
+          - not_null
+
+      - name: province_code
+        description: "Primary city or province location of the customer"
+        tests:
+          - not_null
+
+      - name: rfm_segment_cluster
+        description: "Behavioral RFM customer cluster"
+        tests:
+          - not_null
+          - accepted_values:
+              values:
+                - 'Champions'
+                - 'Loyal Customers'
+                - 'Potential Loyalists'
+                - 'At Risk'
+                - 'Occasional / Hibernating'
+
+      - name: predicted_clv_usd
+        description: "Customer Lifetime Value (CLV) predicted in USD"
+        tests:
+          - not_null
+
+  - name: dim_dates_macro
+    description: "Dimension table providing calendar attributes and macroeconomic open data overlay (fuel prices, NBC rates)"
+    columns:
+      - name: date_key
+        description: "Primary key date (YYYY-MM-DD)"
+        tests:
+          - unique
+          - not_null
+
+      - name: nbc_official_rate
+        description: "National Bank of Cambodia foreign exchange reference rate in KHR/USD"
+        tests:
+          - not_null
+
+      - name: fuel_price_regular_khr
+        description: "Retail gasoline price in KHR per liter from MoC/ODC"
+        tests:
+          - not_null
