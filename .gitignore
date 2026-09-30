@@ -50,5 +50,5 @@ data/*.osm.pbf
 # Ephemeral logs
 *.log
 
-# Documentation build artifacts
-docs/_build/
+# Documentation
+docs/
