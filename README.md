@@ -232,7 +232,7 @@ The dimensional warehouse inside [`data/cambodia_mse.duckdb`](data/cambodia_mse.
 
 1. **Dual-Currency Margin Preservation:** Over 90% of inventory purchases are settled in USD, while retail cash inflow is partially in KHR. Establishing dynamic daily NBC FX reference pricing shields retailers from currency drag.
 2. **KHQR Payment Dominance:** With **58.2% of transactions** conducted via ABA KHQR and Bakong QR, retail POS checkout speed depends on instant QR generation and dual standees during the **12:00 lunch** and **18:00 evening rush periods**.
-3. **Dynamic Reorder Point Optimization:** Replacing static supplier reorder thresholds with **LightGBM dynamic ROP ($\text{Lead Time} \times d_{avg} + Z_{95\%}\sigma_d\sqrt{\text{Lead Time}}$)** reduced capital tied up in slow-moving items by **~22%** while preventing stockouts of staple SKUs.
+3. **Dynamic Reorder Point Optimization:** Replacing static supplier reorder thresholds with **LightGBM dynamic ROP ($\text{Lead Time} \times d_{\text{avg}} + Z_{0.95}\sigma_d\sqrt{\text{Lead Time}}$)** reduced capital tied up in slow-moving items by **~22%** while preventing stockouts of staple SKUs.
 4. **Behavioral Customer Retention:** K-Means clustering revealed that **Champions and Loyal Customers (45% of customer base)** contribute **71% of total gross profit**, providing a clear business case for Telegram VIP bundling promotions.
 
 ---

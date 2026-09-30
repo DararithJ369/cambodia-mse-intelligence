@@ -48,7 +48,7 @@ if module == "Decision Support: Operational Alerts & Requisition":
     st.header("Operational Decision Support & Emergency Inventory Requisition")
     st.markdown("""
     **Real-Time Stockout Risk Engine & Macroeconomic Shock Monitor:**
-    * **Dynamic ROP Formula:** $\\text{ROP} = (\\text{Lead Time} \\times d_{avg}) + (Z_{95\\%} \\times \\sigma_d \\times \\sqrt{\\text{Lead Time}})$
+    * **Dynamic ROP Formula:** $\\text{ROP} = (\\text{Lead Time} \\times d_{avg}) + (Z_{0.95} \\times \\sigma_d \\times \\sqrt{\\text{Lead Time}})$
     * **Automatic Alert Criterion:** Items where $\\text{Current Stock} \\le \\text{ROP}$ (requiring immediate wholesaler replenishment).
     * **Procurement Capital Estimation:** Dual-currency order values calculated using latest NBC exchange rate.
     """)
@@ -199,7 +199,7 @@ elif module == "Step 4: Module C — Demand Forecasting & ROP":
     * **Evaluation:** Holdout test set MAE of **~1.1 units/day** across all 34 SKUs.
     * **Dynamic Reorder Point (ROP):**
       $$\\text{ROP} = (\\text{Lead Time} \\times d_{avg}) + \\text{Safety Stock}$$
-      $$\\text{Safety Stock} = Z_{95\\%} \\times \\sigma_d \\times \\sqrt{\\text{Lead Time}} \\quad (Z = 1.645)$$
+      $$\\text{Safety Stock} = Z_{0.95} \\times \\sigma_d \\times \\sqrt{\\text{Lead Time}} \\quad (Z_{0.95} = 1.645)$$
     """)
     
     col1, col2, col3, col4 = st.columns(4)

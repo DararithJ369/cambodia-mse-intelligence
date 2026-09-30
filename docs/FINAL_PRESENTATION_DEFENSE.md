@@ -61,7 +61,7 @@
 #### Slide 7: Module C — LightGBM Demand Forecasting & Dynamic ROP (Step 4)
 * **Predictive Model:** LightGBM regressor predicting 7-day rolling SKU demand ($d_{avg}$) with an MAE of 1.1 units.
 * **Mathematical Formula:**
-  $$\text{Safety Stock (SS)} = Z_{95\%} \times \sigma_d \times \sqrt{\text{Lead Time}}$$
+  $$\text{Safety Stock (SS)} = Z_{0.95} \times \sigma_d \times \sqrt{\text{Lead Time}} \quad (Z_{0.95} = 1.645)$$
   $$\text{Dynamic ROP} = (\text{Lead Time} \times d_{avg}) + \text{Safety Stock}$$
 * **Detection:** Detected 2 SKUs breaching threshold:
   1. *Malys Angkor Jasmine Rice 5kg*: Stock = 45 vs. ROP = 65.5.

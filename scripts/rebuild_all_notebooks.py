@@ -1953,7 +1953,7 @@ def build_module_c():
 2. Generate 7-day rolling demand forecasts ($d_{avg}$) for each product SKU.
 3. Dynamically evaluate the **Reorder Point (ROP)** formula:
    $$\\text{ROP} = (\\text{Lead Time} \\times d_{avg}) + \\text{Safety Stock}$$
-   where $\\text{Safety Stock} = Z_{95\\%} \\times \\sigma_d \\times \\sqrt{\\text{Lead Time}}$ with $Z = 1.645$.
+   where $\\text{Safety Stock} = Z_{0.95} \\times \\sigma_d \\times \\sqrt{\\text{Lead Time}}$ with $Z_{0.95} = 1.645$.
 4. Flag stockout vulnerability: $\\text{Current Stock} \\le \\text{ROP}$.
 """))
 
