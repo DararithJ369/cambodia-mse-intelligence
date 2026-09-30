@@ -894,7 +894,7 @@ plt.show()"""
     nb.cells.append(make_code_cell(code1, fig_b64=b64_1))
 
     # Chart 2: Payment Method Breakdown
-    nb.cells.append(nbf.v4.new_markdown_cell("### 2.2 Payment Method Distribution: ABA KHQR & Bakong QR Dominance\nReflecting local checkout conditions: **58.2% via Digital QR (ABA KHQR & Bakong)**, **34.1% Cash (KHR & USD)**, and **7.7% Card**."))
+    nb.cells.append(nbf.v4.new_markdown_cell("### 2.2 Payment Method Distribution: ABA KHQR & Bakong QR Dominance\nReflecting local checkout conditions: **57.8% via Digital QR (ABA KHQR & Bakong)**, **34.4% Cash (KHR & USD)**, and **7.8% Card**."))
     
     txn_payments = df_txns.drop_duplicates(subset=["transaction_id"])["payment_method"].value_counts()
     txn_payment_shares = (txn_payments / txn_payments.sum()) * 100
@@ -1035,7 +1035,7 @@ plt.show()"""
     nb.cells.append(make_code_cell(code5, fig_b64=b64_5))
 
     nb.cells.append(nbf.v4.new_markdown_cell("""### Step 2 Strategic Business Insights for Cambodian Retailers
-1. **The Cashless Reality (KHQR):** **58.2%** of checkouts occur via **ABA KHQR & Bakong QR**, while physical cash accounts for **34.1%**. Cambodian retail POS systems must treat KHQR dynamic generation as a zero-latency priority.
+1. **The Cashless Reality (KHQR):** **57.8%** of checkouts occur via **ABA KHQR & Bakong QR**, while physical cash accounts for **34.4%**. Cambodian retail POS systems must treat KHQR dynamic generation as a zero-latency priority.
 2. **Dual-Currency Friction:** Over **90%** of inventory purchases from wholesalers are denominated in USD, while a substantial share of consumer cash receipts is in KHR. Managing the NBC conversion spread prevents currency drag on gross margins.
 3. **Staffing Optimization:** The two sharp rush periods at **12:00** and **18:00** require retailers to schedule peak staffing and keep multiple QR standees active to prevent checkout bottlenecks.
 """))

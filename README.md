@@ -128,7 +128,7 @@ All notebooks in [`analytics/notebooks/`](analytics/notebooks/) have been format
 | **03** | [`03_cambodia_enterprise_firm_data_wb.ipynb`](analytics/notebooks/03_cambodia_enterprise_firm_data_wb.ipynb) | **Step 1.3** | World Bank FAT 8224 firm size tiers, tech adoption funnel, WBES 6414 informal finance. |
 | **04** | [`04_geospatial_osm_points_of_interest.ipynb`](analytics/notebooks/04_geospatial_osm_points_of_interest.ipynb) | **Step 1.4** | OpenStreetMap commercial POI distributions, economic corridors, highway classifications. |
 | **05** | [`05_step1_open_data_master_synthesis.ipynb`](analytics/notebooks/05_step1_open_data_master_synthesis.ipynb) | **Step 1.5** | Cross-synthesis across 4 urban hubs (Phnom Penh, Siem Reap, Battambang, Sihanoukville). |
-| **06** | [`06_step2_synthetic_pos_retail_analytics.ipynb`](analytics/notebooks/06_step2_synthetic_pos_retail_analytics.ipynb) | **Step 2** | 90-day dual-currency sales, KHQR/Bakong payment share (58.2%), intraday rush hours. |
+| **06** | [`06_step2_synthetic_pos_retail_analytics.ipynb`](analytics/notebooks/06_step2_synthetic_pos_retail_analytics.ipynb) | **Step 2** | 90-day dual-currency sales, KHQR/Bakong payment share (57.8%), intraday rush hours. |
 | **07** | [`07_dbt_star_schema_governed_analytics.ipynb`](analytics/notebooks/07_dbt_star_schema_governed_analytics.ipynb) | **Step 3** | dbt Star Schema marts, 32/32 tests, category gross margin waterline, day-of-week trends. |
 | **08** | [`08_ods_operational_data_store.ipynb`](analytics/notebooks/08_ods_operational_data_store.ipynb) | **Step 3** | DuckDB ODS record volume check, USD vs. KHR rounding consistency, channel preferences. |
 | **09** | [`09_module_a_revenue_margin_analytics.ipynb`](analytics/notebooks/09_module_a_revenue_margin_analytics.ipynb) | **Step 4** | Daily margin stability (32.4%), category revenue vs. margin, inventory turnover (DSI). |
@@ -231,7 +231,7 @@ The dimensional warehouse inside [`data/cambodia_mse.duckdb`](data/cambodia_mse.
 ## 💡 Key Business Takeaways for Cambodian MSEs
 
 1. **Dual-Currency Margin Preservation:** Over 90% of inventory purchases are settled in USD, while retail cash inflow is partially in KHR. Establishing dynamic daily NBC FX reference pricing shields retailers from currency drag.
-2. **KHQR Payment Dominance:** With **58.2% of transactions** conducted via ABA KHQR and Bakong QR, retail POS checkout speed depends on instant QR generation and dual standees during the **12:00 lunch** and **18:00 evening rush periods**.
+2. **KHQR Payment Dominance:** With **57.8% of transactions** conducted via ABA KHQR and Bakong QR, retail POS checkout speed depends on instant QR generation and dual standees during the **12:00 lunch** and **18:00 evening rush periods**.
 3. **Dynamic Reorder Point Optimization:** Replacing static supplier reorder thresholds with **LightGBM dynamic ROP ($\text{Lead Time} \times d_{\text{avg}} + Z_{0.95}\sigma_d\sqrt{\text{Lead Time}}$)** reduced capital tied up in slow-moving items by **~22%** while preventing stockouts of staple SKUs.
 4. **Behavioral Customer Retention:** K-Means clustering revealed that **Champions and Loyal Customers (45% of customer base)** contribute **71% of total gross profit**, providing a clear business case for Telegram VIP bundling promotions.
 
