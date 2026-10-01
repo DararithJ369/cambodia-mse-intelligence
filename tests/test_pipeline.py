@@ -9,12 +9,16 @@ Or with pytest (if installed):
 """
 
 import os
+import sys
 import math
 import unittest
 import duckdb
 import pandas as pd
 
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if PROJECT_DIR not in sys.path:
+    sys.path.insert(0, PROJECT_DIR)
+
 DATA_DIR = os.path.join(PROJECT_DIR, "data")
 DB_PATH = os.path.join(DATA_DIR, "cambodia_mse.duckdb")
 

@@ -1719,7 +1719,7 @@ plt.show()"""
 
 def build_module_b():
     nb = nbf.v4.new_notebook()
-    nb.cells.append(nbf.v4.new_markdown_cell("""# Step 4: Module B — Customer RFM Behavioral Segmentation (Python & K-Means)
+    nb.cells.append(nbf.v4.new_markdown_cell(r"""# Step 4: Module B — Customer RFM Behavioral Segmentation (Python & K-Means)
 ### Machine Learning Behavioral Clustering: Recency, Frequency & Monetary Value
 **Project:** Cambodia MSE Intelligence  
 **Department:** Department of Applied Mathematics and Statistics, Institute of Technology of Cambodia (ITC)  

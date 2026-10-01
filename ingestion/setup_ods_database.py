@@ -12,6 +12,8 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 
+np.random.seed(42)
+
 PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_DIR = os.path.join(PROJECT_DIR, "data")
 SYNTHETIC_DIR = os.path.join(DATA_DIR, "synthetic_pos")
